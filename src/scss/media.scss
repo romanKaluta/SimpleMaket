@@ -1,0 +1,161 @@
+@media screen and (max-width: 1060px) {
+	main {
+		.search {
+			padding-top: 150px;
+			.search_form {
+				.search-input {
+					width: 45%;
+				}
+			}
+			.search_buttons {
+				margin-top: 130px;
+			}
+		}
+		.products {
+			.products_list {
+				width: 80%;
+			}
+		}
+	}
+	.tasks {
+		width: 80%;
+	}
+}
+@media screen and (max-width: 880px) {
+	header {
+		.header_menu {
+			flex-direction: column;
+			width: 90%;
+		}
+	}
+	main {
+		.search {
+			.search_form {
+				.search-input {
+					width: 90%;
+					margin: 10px 0;
+				}
+			}
+			.search_buttons {
+				margin-top: 80px;
+			}
+		}
+		.products {
+			.products_list {
+				width: 90%;
+				.products_list_item {
+					width: calc(50% - 50px);
+				}
+			}
+		}
+	}
+	.tasks {
+		width: 95%;
+		.todoItem {
+			.todoList {
+				flex-direction: column;
+				padding: 5px 10px;
+				.todoList_item {
+					line-height: 32px;
+				}
+			}
+			.todoItem_btns {
+				flex-direction: column;
+			}
+		}
+	}
+}
+@media screen and (max-width: 500px) {
+	.modal_sign {
+		.modal_sign_content {
+			width: 95%;
+			margin-top: 50%;
+		}
+	}
+	.modalName {
+		.modalName_box {
+			width: 95%;
+			margin-top: 50%;
+			input {
+				width: 80%;
+			}
+		}
+	}
+	header {
+		.header_menu {
+			.header_menu_nav {
+				.nav-item {
+					margin-right: 15px;
+					a {
+						font-size: 10px;
+					}
+				}
+				.nav-sign {
+					padding-left: 15px;
+					margin-right: 0;
+				}
+			}
+		}
+	}
+	main {
+		.products {
+			.products_list {
+				width: 100%;
+				.products_list_item {
+					width: 90%;
+					margin: 0 auto 15px;
+				}
+			}
+		}
+	}
+	.slick {
+		.slick_info {
+			margin-bottom: 20px;
+		}
+		.slick-container {
+			ul {
+				margin: 0 !important;
+				left: 0 !important;
+				.slick_item {
+					max-width: 303px !important;
+					height: 415px !important;
+					/*left: 0 !important;*/
+					/*top: 49.5px !important;*/
+				}
+			}
+		}
+	}
+	.tasks {
+		width: 100%;
+		padding: 15px 5px;
+		span {
+			margin-top: 5px;
+		}
+		.todoItem {
+			.todoList {
+				width: 60%;
+			}
+			.todoItem_btns {
+				width: 40%;
+				font-size: 14px;
+				padding: 10px 5px;
+			}
+		}
+	}
+	footer {
+		.footer_img {
+			padding: 15px 0;
+		}
+		.footer_nav {
+			padding: 15px 0;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			.footer_nav_item {
+				margin: 0 15px;
+				a {
+					font-size: 12px;
+				}
+			}
+		}
+	}
+}

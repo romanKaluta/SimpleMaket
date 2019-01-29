@@ -1,0 +1,76 @@
+.modal_sign {
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	z-index: 10005;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	.modal_sign_content {
+		width: 40%;
+		margin: 0 auto;
+		margin-top: 12%;
+		padding: 10px 20px;
+		background-color: #fff;
+		span {
+			margin-bottom: 10px;
+			font-size: 20px;
+			float: right;
+			cursor: pointer;
+			color: #fff;
+			background-color: red;
+			padding: 0 5px;
+		}
+		.modal_content-name,
+		.modal_content-email {
+			display: block; 
+			width: 90%;
+			margin-bottom: 15px;
+			font-size: 16px;
+			padding: 8px 16px;
+			clear: both;
+		}
+		.modal_content-img,
+		.modal_content-submit {
+			display: block;
+			background-color: #ea6060;
+			padding: 10px 20px;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			margin-bottom: 10px;
+		}
+	}
+}
+
+.modalName {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10005;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.7);
+	display: flex;
+	.modalName_box {
+		margin: auto;
+		height: 250px;
+		width: 35%;
+		background-color: #ccc;
+		padding: 15px;
+		border-radius: 12px;
+		.closeModal {
+			padding: 5px;
+			background-color: red;
+			color: #fff;
+		}
+		input {
+			width: 50%;
+			border-radius: 8px;
+			display: block;
+			padding: 7px;
+			margin-bottom: 15px;
+			font-size: 16px;
+		}
+	}
+}
